@@ -33,7 +33,7 @@ class _QRGeneratorPageState extends State<QRGeneratorPage> {
 
       await Share.shareFiles(
         [path],
-        text: 'You access from here',
+        text: '',
       );
     } catch (e) {
       debugPrint(e.toString());
